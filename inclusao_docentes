@@ -1,0 +1,24 @@
+ <html>
+<head><title>Inclusao de Docentes</title></head>
+<body>
+<h1>Inclusao de Docentes</h1>
+<br>
+<form action="CRUD_teste.php" method="POST">
+<pre>
+Preencha os dados solicitas para inclusao de novo docente
+
+Codigo Professor:<input type="text" size="10" maxlength="200" name="cod_prof">  
+
+Nome do Professor:<input type="text" size="10" maxlength="200" name="nome_prof">
+
+e-mail Professor:<input type="text" size="10" maxlength="200" name="email_prof">
+
+Disciplina:<input type="text" size="10" maxlength="200" name="nome_discip">
+
+Codigo Disciplina:<input type="text" size="10" maxlength="200" name="cod_discip">
+
+<input type="submit" value="Efetuar Inclusao" name="enviar">
+								</pre>
+					</form>
+		</body>
+</html>
